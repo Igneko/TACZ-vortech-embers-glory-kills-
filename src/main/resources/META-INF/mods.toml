@@ -1,4 +1,4 @@
-# Los valores ${...} se rellenan desde gradle.properties al compilar (tarea processResources).
+# Los valores entre llaves se rellenan desde gradle.properties al compilar (tarea processResources).
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"

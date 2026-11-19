@@ -1,5 +1,11 @@
 {
   "effect.vortech_embers.stimulated": "Stimulated",
   "effect.vortech_embers.overloaded": "Overloaded",
-  "effect.vortech_embers.executable": "Executable"
+  "effect.vortech_embers.executable": "Executable",
+
+  "key.categories.vortech_embers": "Vortech Embers",
+  "key.vortech_embers.execute": "Glory Kill",
+
+  "subtitles.vortech_embers.glory_kill.start": "Enemy grabbed",
+  "subtitles.vortech_embers.glory_kill.impact": "Glory Kill"
 }
