@@ -1,32 +1,37 @@
+# Los valores entre llaves se rellenan desde gradle.properties al compilar (tarea processResources).
 modLoader="javafml"
-loaderVersion="[47,)"
-license="MIT"
-issueTrackerURL="https://github.com/Igneko/vortech-embers-glory-kills/issues"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/Igneko/TACZ-vortech-embers-glory-kills-/issues"
 
 [[mods]]
-# El ID debe ser exactamente igual al que pusimos en GloryKillsMod.java
-modId="vortech_embers"
-version="1.0.0"
-displayName="Vortech Embers - Glory Kills"
-authors="Igneko, Cowboy Vortech"
-description='''
-Una extensión visceral y trepidante para TACZ. 
-Añade mecánicas de ejecución (Glory Kills) a los enemigos con poca salud, 
-recompensando la agresión con curación y efectos de estado.
-'''
+# Debe coincidir con el @Mod de GloryKillsMod.java
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''${mod_description}'''
 
 # Dependencia obligatoria de Forge
-[[dependencies.vortech_embers]]
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
 
 # Dependencia obligatoria de Minecraft
-[[dependencies.vortech_embers]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
+    side="BOTH"
+
+# Dependencia obligatoria de TACZ (Timeless and Classics Zero)
+[[dependencies.${mod_id}]]
+    modId="tacz"
+    mandatory=true
+    versionRange="[1.1.0,)"
+    ordering="AFTER"
     side="BOTH"

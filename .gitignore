@@ -25,3 +25,14 @@ replay_pid*
 build/
 .gradle/
 run/
+# El wrapper de Gradle SI debe estar en el repo (sin el, ./gradlew no funciona)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Jars locales de dependencias (TACZ, GeckoLib, PlayerAnimator)
+libs/
+
+# IDE
+.idea/
+*.iml
+out/
+run-data/

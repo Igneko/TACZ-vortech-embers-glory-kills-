@@ -52,4 +52,16 @@ Tu brutalidad quedará registrada. El mod incluye un sistema de progresión y tr
 * **El Jinete del Apocalipsis:** 100 Ejecuciones.
 
 ---
+
+## 🎮 Controles y Configuración
+
+* **Tecla de Glory Kill:** `B` por defecto (cámbiala en *Opciones → Controles → Vortech Embers*).
+* **Configuración:** `config/vortech_embers-common.toml` se genera al abrir el juego. Desde ahí se ajustan el umbral de vida, la duración de la ventana, el alcance, la probabilidad de la ruleta, la curación y la duración de los efectos.
+
+## 🛠️ Compilar el mod
+
+1. Coloca en una carpeta `libs/` (no se sube al repo) los jars de dependencias: `tacz-1.1.8.jar`, `geckolib-4.8.4.jar` y `playeranimator-1.0.2.jar`.
+2. Ejecuta `./gradlew build` (Java 17). El jar queda en `build/libs/`.
+
+---
 *Desarrollado para Minecraft Forge 1.20.1.*

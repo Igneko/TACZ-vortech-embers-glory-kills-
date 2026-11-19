@@ -1,0 +1,19 @@
+{
+  "glory_kill.start": {
+    "subtitle": "subtitles.vortech_embers.glory_kill.start",
+    "sounds": [
+      "minecraft:item/armor/equip_leather1",
+      "minecraft:item/armor/equip_leather2",
+      "minecraft:item/armor/equip_leather3"
+    ]
+  },
+  "glory_kill.impact": {
+    "subtitle": "subtitles.vortech_embers.glory_kill.impact",
+    "sounds": [
+      "minecraft:mob/zombie/woodbreak",
+      "minecraft:damage/hit1",
+      "minecraft:damage/hit2",
+      "minecraft:damage/hit3"
+    ]
+  }
+}
